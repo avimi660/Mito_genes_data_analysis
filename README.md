@@ -1,7 +1,9 @@
+``
+
 # Mito_genes_data_analysis
 code for data analysis completed on mitochondrial associated genes found in possum. 
 
-``
+
 # To pull out relevant human gene stuff through BASH
 cut -f1 possum_mito_gene_matches.txt | grep -v "NA" | grep -v "human_gene" > to_grep_human.txt
 cut -f2 mito_genes_to_human_name.txt >> to_grep_human.txt
